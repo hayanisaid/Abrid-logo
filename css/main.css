@@ -1,0 +1,64 @@
+.posts{
+    margin: 1em;
+}
+body{
+  background:#c2291a;
+}
+.posts .post{
+  box-shadow:0 0 10px #ccc;
+  padding:2em;
+}
+.logo-container{
+  margin: 2em auto;
+  background: red;
+ 
+
+}
+.wrapper{}
+.wrapper .main{
+  padding: 4px 5px;
+  box-shadow: 0 0 10 #ccc;
+  width: 77px;
+  height: 77px;
+  background: #f8f8f8;
+  border-radius: 4px;
+  align-items: center;
+  position: relative;
+  left: 107px;
+  top: 40px;
+}
+
+.main .span1{
+  width: 60px;
+  height: 60px;
+  display: block;
+  background:#c2291a;
+  border-radius: 50%;
+  color:#fff;
+  font-weight: bold;
+  position: absolute;
+  left: 14px;
+  top: 8px;
+  
+}
+.main .span2{
+  position: absolute;
+  content: "";
+  border-width: 30px;
+  border-style: solid;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  /* background: rebeccapurple; */
+  border-color: #c2291a #00800000 #ffff0000 #ff000000;
+  bottom: -25px;
+  left: 14px;
+}
+.main .title{
+  position: absolute;
+  color: #fff;
+  top: 31px;
+  z-index: 1;
+  font-weight: bold;
+  left: 27px;
+  font-family: monospace;
+}
